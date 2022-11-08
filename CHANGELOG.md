@@ -1,5 +1,11 @@
 # Changelog
 
+## 15.0.0
+
+- Change: `extends` in `overrides` to merge to be consistent with `plugins` behaviour ([#6380](https://github.com/stylelint/stylelint/pull/6380)) ([@jasikpark](https://github.com/jasikpark)). (BREAKING)
+- Removed: `syntax` option ([#6420](https://github.com/stylelint/stylelint/pull/6420)) ([@fpetrakov](https://github.com/fpetrakov)). (BREAKING)
+- Fixed: usage of the `import-lazy` package to fit bundlers ([#6449](https://github.com/stylelint/stylelint/pull/6449)) ([@phoenisx](https://github.com/phoenisx)).
+
 ## 14.14.1
 
 - Fixed: `declaration-block-no-redundant-longhand-properties` false positives for `inherit` keyword ([#6419](https://github.com/stylelint/stylelint/pull/6419)) ([@kimulaco](https://github.com/kimulaco)).
